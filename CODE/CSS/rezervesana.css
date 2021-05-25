@@ -1,0 +1,43 @@
+/*Rezervesana*/
+h1 {
+    background-color: #424C55;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #F5EDF0;
+}
+/*Headeris*/
+#header {
+    padding: 2%;
+    margin:0%;
+    background-color: #424C55;
+    overflow:hidden;
+}
+
+/*Rezervēšana - title*/
+#title {
+    margin: 0%;
+    padding:0%;
+    padding-right: 4%;
+    color:#F5EDF0;
+    display:block;
+}
+
+/*Sākums*/
+#title a {
+    float: center;
+    display: inline;
+    color: #F5EDF0;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*95 Logo*/
+.logo {
+    padding:0%;
+    margin:0%;
+    float: right;
+    width: 10%;
+    height: 10%;
+}

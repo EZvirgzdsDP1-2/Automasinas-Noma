@@ -46,7 +46,31 @@ body {
 .logo {
     padding:0%;
     margin:0%;
-    float: right;
-    width: 10%;
-    height: 10%;
+    float:right;
+    width: 15%;
 }
+
+/*Set footer properties*/
+
+#footer {
+    position: fixed;
+    padding:0%;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 15%;
+    background: #424C55;
+}
+
+#footer a {
+    color: #F5EDF0;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 20px;
+    margin-top:20px;  
+    
+}
+
+#footer a:hover {
+    color: black;
+  }
