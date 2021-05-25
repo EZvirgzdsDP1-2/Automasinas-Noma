@@ -5,10 +5,28 @@
     <h1>Meklēt automašīnu</h1>
 </head>
 <body>
-    <div class="brandNames">
+    <form >
     <select name="carBrand">
+        <div class="brandNames">
         <option>BMW</option>
         <option>Mercedes</option>
-    </div>
+        </div>
+    </select>
+    <select name="CarClass">
+        <option>Sporta</option>
+        <option>Minivens</option>
+        <option>Sedans</option>
+        <option>Kabriolets</option>
+    </select>
+    <select name="pickupPoint">
+        <div class="carPickupPoint">
+        <option>Brīvības iela 104 (sarakstu var papildināt</option>
+        </div>
+    </select>
+    <p>Datums kurā vēlaties nomāt auto:</p><input type="date">
+
+    <button type="submit" id="searchCar">Meklēt</button>
+    </form>
+    
 </body>
 </html>
