@@ -7,6 +7,7 @@ body {
 
 #header {
     padding: 2%;
+    padding-bottom: 3%;
     margin:0%;
     background-color: #424C55;
 }
@@ -16,6 +17,7 @@ body {
 #title {
     margin: 0%;
     padding:0%;
+    padding-bottom: 1%;
     color:#F5EDF0;
     display:block;
 }
