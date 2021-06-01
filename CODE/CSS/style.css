@@ -79,16 +79,14 @@ body {
 
 #boxes {
     display: flex;
-    align-items: center;
-    justify-content: center
+
 }
 .car_image {
     max-width: 25%;
-    height: auto;
+    height: 25%;
     
 
 }
-
-.car_desc {
-    display:inline;
+.text {
+    background-color: grey;
 }
