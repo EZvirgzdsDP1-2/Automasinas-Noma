@@ -74,3 +74,21 @@ body {
 #footer a:hover {
     color: black;
   }
+
+/* Set car image properties*/
+
+#boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.car_image {
+    max-width: 25%;
+    height: auto;
+    
+
+}
+
+.car_desc {
+    display:inline;
+}
