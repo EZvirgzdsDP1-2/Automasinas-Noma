@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rezervēšana</title>
+    <link rel="stylesheet" type="text/css" href="/CODE/CSS/rezervesana.css" media="screen"/>
+    <title>Vagi.lv - Rezervēšana</title>
 </head>
 <body>
-    <h1>Rezervēšana</h1>
-    <select name="status" id="status">
-        <option value="dr">Dr.</option>
-        <option value="miss">Miss.</option>
-        <option value="mr">Mr.</option>
-        <option value="mrs">Mrs.</option>
-    </select>
-    <input type="text" id="rezerv" placeholder="Vārds">
-    <input type="text" id="rezerv" placeholder="Uzvārds">
-    <input type="text" id="rezerv" placeholder="Adrese">
-    <input type="text" id="rezerv" placeholder="Tel. Num.">
-    <input type="text" id="rezerv" placeholder="Kartes Num.">
-    <input type="text" id="rezerv" placeholder="Term. 00/00">  
-    <input type="text" id="rezerv" placeholder="cvc2">     
+    <div id="header">
+        <h1 id="title">Rezervēšana
+            <img class="logo" src="/CODE/Resources/logo.png" alt="logo bilde">
+            <a href="#home">Sākums</a>
+        </h1>
+    </div>
+    <div id="rezerv">
+        <select name="status" id="status">
+            <option value="status">Status</option>
+            <option value="dr">Dr.</option>
+            <option value="miss">Miss.</option>
+            <option value="mr">Mr.</option>
+            <option value="mrs">Mrs.</option>
+        </select>
+        <input type="text" placeholder="Vārds">
+        <input type="text" placeholder="Uzvārds">
+        <input type="text" placeholder="Adrese">
+        <input type="text" placeholder="Tel. Num.">
+        <input type="text" placeholder="E-pasts">
+        <input type="text" placeholder="Vecums">
+        <button type="submit" class="button" id="button"></button>
+    </div>  
 </body>
 </html>
