@@ -1,0 +1,80 @@
+/* Set body properties*/
+body {
+    margin:0%;
+    padding:0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #CFCFCF;
+}
+/*Set header properties*/
+
+#header {
+    padding: 2%;
+    margin:0%;
+    background-color: #424C55;
+    overflow:hidden;
+}
+
+
+/*Set title properties*/
+#title {
+    margin: 0%;
+    padding:0%;
+    padding-right: 4%;
+    color:#F5EDF0;
+    display:block;
+}
+
+/*Set navigation properties */
+
+#title a {
+    float: center;
+    display: inline;
+    color: #F5EDF0;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+#header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Set logo properties*/
+
+.logo {
+    padding:0%;
+    margin:0%;
+    float:right;
+    width: 15%;
+}
+
+/*Set footer properties*/
+
+#footer {
+    position: relative;
+    margin:0%;
+    padding:0%;
+    padding-top:3%;
+    bottom: 0;
+    width: 100%;
+    overflow:auto;
+    /* Height of the footer*/ 
+    height: 15%;
+    background: #424C55;
+}
+
+#footer a {
+    color: #F5EDF0;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 20px;
+     
+    
+}
+
+#footer a:hover {
+    color: rgb(148, 148, 148);
+  }
