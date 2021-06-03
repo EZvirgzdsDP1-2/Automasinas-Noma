@@ -54,7 +54,7 @@ body {
 /*Set footer properties*/
 
 #footer {
-    position: relative;
+    position: static;
     margin:0%;
     padding:0%;
     padding-top:3%;
