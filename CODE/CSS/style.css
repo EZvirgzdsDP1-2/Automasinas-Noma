@@ -5,6 +5,8 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #CFCFCF;
 }
+
+
 /*Set header properties*/
 
 #header {
@@ -155,6 +157,9 @@ a {
 /* admin: masinu nonemsana*/
 .admin-title {
     color: rgb(243, 0, 0);
+}
+.admin-option {
+    color:red;
 }
 /* Izdzēst poga*/
 
