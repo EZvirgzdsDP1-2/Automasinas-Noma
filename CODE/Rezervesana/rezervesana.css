@@ -5,6 +5,10 @@ h1 {
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color: #F5EDF0;
 }
+h2 {
+    text-align: left;
+    margin-left: 25px;
+}
 /*Headeris*/
 #header {
     padding: 2%;
@@ -73,4 +77,9 @@ body {
 
 .rezerv {
     left: 10px;
+}
+
+.submit{
+    height:44px;
+    width:183px;
 }
