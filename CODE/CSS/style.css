@@ -5,6 +5,8 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #CFCFCF;
 }
+
+
 /*Set header properties*/
 
 #header {
@@ -150,4 +152,33 @@ a {
 
 .car-title {
     margin-left: 2%;
+}
+
+/* admin: masinu nonemsana*/
+.admin-title {
+    color: rgb(243, 0, 0);
+}
+.admin-option {
+    color:red;
+}
+/* Izdzēst poga*/
+
+.remove-car {
+    float: center;
+    display: inline;
+    color: #ffffff;
+    text-align: center;
+    padding:1%;
+    margin-left:2%; 
+    text-decoration: none;
+    font-size: 21px;
+    border:none;
+    background-color: #ca0c0c;
+}
+
+.remove-car:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(236, 0, 0);
+    text-decoration: none;
+    
 }
